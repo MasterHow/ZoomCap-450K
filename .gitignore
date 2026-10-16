@@ -1,0 +1,7 @@
+*.parquet
+*.jsonl.gz
+scan_copy/
+__pycache__/
+.DS_Store
+# site-specific leak-scan patterns are operator-supplied and never public
+tools/leak_patterns.json
